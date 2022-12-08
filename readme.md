@@ -1,3 +1,3 @@
-# view of the Calculator
+# overall view of the Calculator
 
 ![CHEESE!](sweet-calculator.png)
