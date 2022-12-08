@@ -1,5 +1,5 @@
 # overall view of the Calculator
 
-![CHEESE!](sweet-calculator.png)
+![CHEESE!](calc_img.png)
 
 #
