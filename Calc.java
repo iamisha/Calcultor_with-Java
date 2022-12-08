@@ -1,3 +1,10 @@
+
+/* import java.awt.*;
+ * import javax.swing.*;
+ * import java.awt.event.*;
+ */
+
+//trying to make the code more comprehensible using branches of packages...
 import javax.swing.JFrame;
 import javax.swing.JTextField;
 import javax.swing.JButton;
@@ -8,6 +15,7 @@ import java.awt.Font;
 
 class Calc {
 
+    // declaration
     JFrame fr;
     JTextField text_first, text_second, text_res;
     JButton btn_add, btn_subs, btn_mult, btn_div, btn_mod, btn_pow;
@@ -64,6 +72,7 @@ class Calc {
         btn_pow.setBackground(Color.GRAY);
         fr.add(btn_pow);
 
+        // connecting the class Controller with class Calc()...
         Controller crl = new Controller(this);
         btn_add.addActionListener(crl);
         btn_subs.addActionListener(crl);
@@ -89,7 +98,8 @@ class Calc {
 }
 
 class Controller implements ActionListener {
-    Calc calc;
+    Calc calc; // creating the object of the class Calc()...provides all the property of the
+               // class Calc()...
 
     public Controller(Calc calc) {
         this.calc = calc;
